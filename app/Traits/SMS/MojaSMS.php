@@ -15,7 +15,6 @@ trait MojaSMS
         $minutes = 3600; // seconds until token expires
 
         return Cache::remember('myToken', $minutes, function () {
-            dump('called');
 
             $client = new \GuzzleHttp\Client();
 
