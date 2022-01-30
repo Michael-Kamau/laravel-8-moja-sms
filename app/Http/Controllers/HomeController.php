@@ -9,9 +9,4 @@ class HomeController extends Controller
 {
     
 
-    public function getBalance(){
-
-        $smsDetails = $this->getSmsBalance();
-        
-    }
 }

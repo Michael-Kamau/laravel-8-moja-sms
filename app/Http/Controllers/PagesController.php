@@ -10,7 +10,6 @@ class PagesController extends Controller
 
     public function index(){
 
-        // $smsDetails = $this->getSmsBalance();
         return view('welcome');
         
     }
